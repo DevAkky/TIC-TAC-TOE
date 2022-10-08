@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>TIC TAC TOE</title>
+                    <link rel="stylesheet" href="3.index.css">
+</head>
+
+<body>
+                       <center><br><br>
+                    <h1 class="tic">TIC TAC TOE</h1>
+               
+                    </center>
+
+
+<div  class="main-div">
+
+       <div style="display:flex">
+       <div class="box" id="1" onclick="play(1)"></div>
+       <div class="box" id="2" onclick="play(2)"></div>
+       <div class="box" id="3" onclick="play(3)"></div>
+       </div>
+
+       <div style="display:flex">
+       <div class="box" id="4" onclick="play(4)"></div>
+       <div class="box" id="5" onclick="play(5)"></div>
+       <div class="box" id="6" onclick="play(6)"></div>
+       </div>
+
+       <div style="display:flex">
+       <div class="box" id="7" onclick="play(7)"></div>
+       <div class="box" id="8" onclick="play(8)"></div>
+       <div class="box" id="9" onclick="play(9)"></div>
+       </div>
+
+       <div id="winMessage"></div> 
+       <div id="drawMessage"></div> <br><br>
+       
+       <center>
+       <button class="restart" onclick="reset()">Play Again</button>
+       </center>
+
+</div>
+
+
+
+<script src="3.index.js" defer></script>
+</body>
+</html>
